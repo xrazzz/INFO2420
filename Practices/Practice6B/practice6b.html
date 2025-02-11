@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+
+<meta charset="UTF-8">
+	
+<title>HTML Practice 6 - Tables</title>
+
+<style type="text/css">
+.center-div {
+    text-align: center;
+}
+
+.center-table {
+    margin: auto;
+    width: 600px;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+.caption-style {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: black;
+    text-align: center;
+}
+
+.first-col {
+    background-color: #CCCCCC;
+    font-weight: bold;
+}
+
+.days {
+    background-color: #99FF66;
+    font-weight: bold;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #99FF66;
+}
+
+td:first-child {
+    background-color: #CCCCCC;
+    font-weight: bold;
+}
+</style>
+
+</head>
+<body>
+
+<div class="center-div">
+   <table class="center-table">
+        <caption class="caption-style">My Class Schedule</caption>
+
+        <tr>
+            <th class="first-col">Courses</th>
+            <th class="days">Monday</th>
+            <th class="days">Tuesday</th>
+            <th class="days">Wednesday</th>
+            <th class="days">Thursday</th>
+            <th class="days">Friday</th>
+        </tr>
+
+        <tr>
+            <td>INFO 2420</td>
+            <td></td>
+            <td>9-11</td>
+            <td></td>
+            <td>9-11</td>
+            <td rowspan="2"></td>
+        </tr>
+        <tr>
+            <td>CYBR 2700</td>
+            <td colspan="4">12-1</td>
+        </tr>
+        <tr>
+            <td>INFO 3130</td>
+            <td colspan="5">Online Available 24/7</td>
+        </tr>
+   </table>
+</div>
+
+</body>
+</html>
