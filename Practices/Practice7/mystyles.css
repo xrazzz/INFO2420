@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    margin: 0;
+    background-image: url('Images/background.gif');
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+}
+
+/* Header Styles */
+header {
+    width: 760px;
+    height: 150px;
+    background-color: #CCCCCC;
+    text-align: center;
+    padding-top: 10px;
+    border: dashed medium navy;
+    margin: auto;
+}
+
+/* Section Styles */
+section {
+    width: 760px;
+    background-image: url('Images/inner_background.gif');
+    background-repeat: repeat-y;
+    overflow: hidden;
+    border-right: dashed medium navy;
+    border-left: dashed medium navy;
+    margin: auto;
+}
+
+/* Navigation Styles */
+nav {
+    float: left;
+    width: 110px;
+    padding-left: 10px;
+}
+
+nav a {
+    border: 2px inset #CCCCCC;
+    background-color: maroon;
+    line-height: 250%;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+    padding: 5px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+nav a:hover {
+    color: yellow;
+    border: 2px outset #CCCCCC;
+}
+
+/* Article Styles */
+article {
+    float: left;
+    width: 600px;
+    padding: 5px;
+    text-align: center;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    width: 760px;
+    height: 70px;
+    border: dashed medium navy;
+    background-color: #CCCCCC;
+    margin: auto;
+}
+
+/* Logo Left Class (for floating the logo) */
+.logoleft {
+    float: left;
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
